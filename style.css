@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+.headh1
+{
+    text-align: center;
+    font-family: Arial;
+	color: white;
+	font-size:90px;
+}
+.head {
+    padding: 6em 0;
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+    border-top: solid 10px white;
+}
+/*.headh2
+{
+    text-align: center;
+    font-family: Arial;
+	color: #900C3F ;
+	font-size:24px;
+}*/
+.section1
+{
+    padding: 6em 0;
+   /*background-image: url('photo3.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #587ABD ;
+    border-top: solid 10px white;
+}
+.headp
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-size:40px;
+	
+}
+.headp2
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-size:20px;
+	
+}
+.myDiv {
+  border: 150  #F4E2FF ;
+  background-color: #F4E2FF ;
+  text-align: left;
+}
+  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #47649E  ;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.Academics{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.Academics .Academics_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #80A6F3     ;  
+  position: relative;
+}
+
+.Academics .Academics_member h3{
+  color: #47649E ;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.Academics .Academics_member {
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.Academics .Academics_member .Academics_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.Academics .Academics_member .Academics_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
